@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="33.058">
+    <testcase classname="Choosing Departure and destination cities  and finding flights" name=": FINDING FLIGHTS" time="11.286">
+        <system-out><![CDATA[Given I am on the the Welcome to simple Travel agency Landing page..........passed
+And I choose the "Boston" and "Rome" from the drop down.....................passed
+When I click on "<Find Flights>"............................................passed
+Then I should see "Boston" and "Rome" on the reserve page  and 5 flight options.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Choosing Departure and destination cities  and finding flights" name=": FINDING FLIGHTS 2" time="7.633">
+        <system-out><![CDATA[Given I am on the the Welcome to simple Travel agency Landing page..........passed
+And I choose the "Portland" and "London" from the drop down.................passed
+When I click on "<Find Flights>"............................................passed
+Then I should see "Portland" and "London" on the reserve page  and 5 flight options.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Choosing Departure and destination cities  and finding flights" name=": FINDING FLIGHTS 3" time="6.466">
+        <system-out><![CDATA[Given I am on the the Welcome to simple Travel agency Landing page..........passed
+And I choose the "Philadelphia" and "New York" from the drop down...........passed
+When I click on "<Find Flights>"............................................passed
+Then I should see "Philadelphia" and "New York" on the reserve page  and 5 flight options.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Choosing Departure and destination cities  and finding flights" name=": FINDING FLIGHTS 4" time="6.603">
+        <system-out><![CDATA[Given I am on the the Welcome to simple Travel agency Landing page..........passed
+And I choose the "Mexico City" and "Berlin" from the drop down..............passed
+When I click on "<Find Flights>"............................................passed
+Then I should see "Mexico City" and "Berlin" on the reserve page  and 5 flight options.passed
+]]></system-out>
+    </testcase>
+</testsuite>
